@@ -71,8 +71,43 @@ nav ul li a:hover::after{
     font-size: 190px;
     line-height: 160px;
     margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    /* background: url(../img/back.png);
+    background-position: 0 0 ;
+    animation: back 20s linear infinite; */
 }
 .text-box h3{
     font-size: 40px;
     font-weight: 500;
+}
+.text-box .row{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-box a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+.text-box a span{
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+.social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icons img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
 }
