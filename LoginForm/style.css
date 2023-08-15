@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000;
+}
+.login-box{
+    position: relative;
+    width: 400px;
+    background: red;
+}
+.login-box form{
+    width: 100%;
+    padding:0 50px;
+}
+h2{
+    font-size: 2em;
+    color: aqua;
+    text-align: center;
+}
