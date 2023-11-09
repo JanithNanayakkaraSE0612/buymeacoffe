@@ -15,6 +15,9 @@ body{
     background-size: cover;
     background-position: center;
 }
+.form-select{
+    
+}
 .wrapper{
     position: relative;
     top: 80px;
